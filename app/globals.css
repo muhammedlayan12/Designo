@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+
 :root {
+  --peach: #e88069;
+  --lightGreyishPeach: #fdf4f2;
+  --black: #1c1b1d;
+  --white: #fff;
+  --lightPeach: #ffac99;
+  --darkgrey: #323036;
+  --lightGrey: #f0f2f4;
+  --metalic:#111;
+}
+body{
+  cursor: pointer;
+}
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -18,4 +35,4 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */

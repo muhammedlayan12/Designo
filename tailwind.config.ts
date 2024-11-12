@@ -9,8 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        peach: "var(--peach)",
+        lightGreyishPeach: "lightGreyishPeach",
+        black: "var(--black)",
+        white: "var(--white)",
+        lightPeach: "var(--lightPeach)",
+        darkGrey: "var(--darkGrey)",
+        lightGrey: "var(--lightGrey)",
+        metalic:"var(--metalic)",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        jost: ["Jost", "sans-serif"],
       },
     },
   },
